@@ -388,7 +388,7 @@ end)
 --Context Menus
 --Selling Ore
 RegisterNetEvent('jim-mining:SellOre', function()
-	TriggerEvent('nh-context:sendMenu', {
+	TriggerEvent('qb-menu:sendMenu', {
 	{   id = 1, header = "Sell Batches of Ores for Cash",
 		txt = "", }, 
 	{   id = 2, header = "Copper Ore",
@@ -411,7 +411,7 @@ end)
 ------------------------
 --Jewel Selling Main Menu
 RegisterNetEvent('jim-mining:JewelSell', function()
-    TriggerEvent('nh-context:sendMenu', {
+    TriggerEvent('qb-menu:sendMenu', {
 	{   id = 1, header = "Sell your jewellery here",
 		txt = "", }, 
 	{   id = 2, header = "Emeralds",
@@ -432,7 +432,7 @@ RegisterNetEvent('jim-mining:JewelSell', function()
 end)
 --Jewel Selling - Emerald Menu
 RegisterNetEvent('jim-mining:JewelSell:Emerald', function()
-    TriggerEvent('nh-context:sendMenu', {
+    TriggerEvent('qb-menu:sendMenu', {
 	{   id = 1, header = "< Go Back",
 		txt = "",
 		params = { event = "jim-mining:JewelSell", } },
@@ -447,7 +447,7 @@ RegisterNetEvent('jim-mining:JewelSell:Emerald', function()
 end)
 --Jewel Selling - Ruby Menu
 RegisterNetEvent('jim-mining:JewelSell:Ruby', function()
-    TriggerEvent('nh-context:sendMenu', {
+    TriggerEvent('qb-menu:sendMenu', {
 	{   id = 1, header = "< Go Back",
 		txt = "",
 		params = { event = "jim-mining:JewelSell", } },
@@ -462,7 +462,7 @@ RegisterNetEvent('jim-mining:JewelSell:Ruby', function()
 end)
 --Jewel Selling - Diamonds Menu
 RegisterNetEvent('jim-mining:JewelSell:Diamond', function()
-    TriggerEvent('nh-context:sendMenu', {
+    TriggerEvent('qb-menu:sendMenu', {
 	{   id = 1, header = "< Go Back",
 		txt = "",
 		params = { event = "jim-mining:JewelSell", } },
@@ -477,7 +477,7 @@ RegisterNetEvent('jim-mining:JewelSell:Diamond', function()
 end)
 --Jewel Selling - Sapphire Menu
 RegisterNetEvent('jim-mining:JewelSell:Sapphire', function()
-    TriggerEvent('nh-context:sendMenu', {
+    TriggerEvent('qb-menu:sendMenu', {
 	{   id = 1, header = "< Go Back",
 		txt = "",
 		params = { event = "jim-mining:JewelSell", } },
@@ -493,7 +493,7 @@ end)
 
 --Jewel Selling - Jewellry Menu
 RegisterNetEvent('jim-mining:JewelSell:Rings', function()
-    TriggerEvent('nh-context:sendMenu', {
+    TriggerEvent('qb-menu:sendMenu', {
 	{   id = 1, header = "< Go Back",
 		txt = "",
 		params = { event = "jim-mining:JewelSell", } },
@@ -520,7 +520,7 @@ RegisterNetEvent('jim-mining:JewelSell:Rings', function()
 end)
 --Jewel Selling - Jewellry Menu
 RegisterNetEvent('jim-mining:JewelSell:Necklace', function()
-    TriggerEvent('nh-context:sendMenu', {
+    TriggerEvent('qb-menu:sendMenu', {
 	{   id = 1, header = "< Go Back",
 		txt = "",
 		params = { event = "jim-mining:JewelSell", } },
@@ -553,7 +553,7 @@ end)
 
 --Smelting
 RegisterNetEvent('jim-mining:SmeltMenu', function()
-    TriggerEvent('nh-context:sendMenu', {
+    TriggerEvent('qb-menu:sendMenu', {
 	{   id = 1, header = "Sell Batches of Ores for Cash",
 		txt = "", }, 
 	{   id = 2, header = "Smelt Copper Ore",
@@ -579,7 +579,7 @@ end)
 
 --Cutting Jewels
 RegisterNetEvent('jim-mining:JewelCut', function()
-    TriggerEvent('nh-context:sendMenu', {
+    TriggerEvent('qb-menu:sendMenu', {
 	{   id = 1, header = "Jewellery Crafting Bench",
 		txt = "Requires Hand Drill & Drill Bit", },
 	{   id = 2, header = "Gem Cutting",
@@ -594,7 +594,7 @@ RegisterNetEvent('jim-mining:JewelCut', function()
 end)
 --Gem Section
 RegisterNetEvent('jim-mining:JewelCut:Gem', function()
-    TriggerEvent('nh-context:sendMenu', {
+    TriggerEvent('qb-menu:sendMenu', {
 	{   id = 1, header = "< Go Back",
 		txt = "",
 		params = { event = "jim-mining:JewelCut", } },
@@ -617,7 +617,7 @@ RegisterNetEvent('jim-mining:JewelCut:Gem', function()
 end)
 -- Ring Section
 RegisterNetEvent('jim-mining:JewelCut:Ring', function()
-    TriggerEvent('nh-context:sendMenu', {
+    TriggerEvent('qb-menu:sendMenu', {
 	{   id = 1, header = "< Go Back",
 		txt = "",
 		params = { event = "jim-mining:JewelCut", } },
@@ -644,7 +644,7 @@ RegisterNetEvent('jim-mining:JewelCut:Ring', function()
 end)
 --Necklace Section
 RegisterNetEvent('jim-mining:JewelCut:Necklace', function()
-    TriggerEvent('nh-context:sendMenu', {
+    TriggerEvent('qb-menu:sendMenu', {
 	{   id = 1, header = "< Go Back",
 		txt = "",
 		params = { event = "jim-mining:JewelCut", } },
